@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="89b3839ec0a9462c8be31e62434babe3" Name="Diagram1">
+        <EntityTypeShape EntityType="HiTechDBModel.Books" Width="1.5" PointX="5.125" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDBModel.Clients" Width="1.5" PointX="1.125" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDBModel.OrderLines" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDBModel.Orders" Width="1.5" PointX="3.375" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDBModel.Softwares" Width="1.5" PointX="7.375" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="HiTechDBModel.FK_OrderLines_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechDBModel.FK_Orders_Clients" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechDBModel.FK_OrderLines_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechDBModel.FK_OrderLines_Softwares" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
